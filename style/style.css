@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sen:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #013243;
+}
+
+img {
+  max-width: 100%;
+}
+
+main h1 {
+  color: #32F5C8;
+  font-family: "Sen";
+  font-size: 42px;
+  top: 33.33vh;
+  width: 100vh;
+}
+
+main p {
+  color: #A9BDC6;
+  font-family: "Inter";
+  font-size: 18px;
+  top: 48vh;
+  width: 80vw;
+}
+
+main button {
+  background-color: #32F5C8;
+  border: none;
+  border-radius: 5px;
+  color: #013243;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  padding: .75rem;
+  width: 80vw;
+  top: 59vh;
+}
+
+.twitter {
+  top: 91vh;
+}
+
+h2 {
+  color: #A9BDC6;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  top: 92.3vh;
+  left: 23vw;
+  width: 55vw;
+}
+
+* {
+  position: absolute;
+}
+
+.avatar1, .avatar4, .avatar5 {
+  display: none;
+}
+
+.avatars {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.avatars .avatar2 {
+  width: 40%;
+  top: 23.5vh;
+  right: 3vw;
+}
+
+.avatars .avatar3 {
+  width: 30%;
+  top: 23vh;
+  left: 10vw;
+}
+
+.avatars .avatar6 {
+  width: 45%;
+  bottom: 10.5vh;
+  right: 3vw;
+  z-index: -1;
+}
+
+@media screen and (min-width: 375px) {
+  .avatars .avatar2 {
+    top: 18vh;
+    right: 2.5vw;
+  }
+  .avatars .avatar3 {
+    top: 18.5vh;
+    left: 9vw;
+  }
+  .avatars .avatar6 {
+    width: 40%;
+    bottom: 4.5vh;
+  }
+  main h1 {
+    font-size: 50px;
+    top: 30.33vh;
+  }
+  main p {
+    font-size: 22px;
+    top: 50vh;
+    width: 90vw;
+  }
+  main button {
+    font-size: 18px;
+    padding: .75rem;
+    width: 72.5vw;
+    top: 65vh;
+  }
+  .twitter {
+    top: 91vh;
+  }
+  h2 {
+    font-size: 18px;
+    top: 93vh;
+    left: 19vw;
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .avatars .avatar2 {
+    top: 15vh;
+    right: 3vw;
+  }
+  .avatars .avatar3 {
+    top: 16.5vh;
+    left: 10vw;
+  }
+  .avatars .avatar6 {
+    width: 35%;
+    bottom: 4.5vh;
+    right: 10vw;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+  }
+  main h1 {
+    color: #32F5C8;
+    font-family: "Sen";
+    font-size: 58px;
+    top: 30.33vh;
+  }
+  main p {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-size: 24px;
+    top: 50vh;
+    width: 85vw;
+  }
+  main button {
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    color: #013243;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 18px;
+    padding: .75rem;
+    width: 72.5vw;
+    top: 65vh;
+  }
+  .twitter {
+    top: 91vh;
+  }
+  h2 {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    top: 93vh;
+    left: 19vw;
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .avatars .avatar1, .avatars .avatar4, .avatars .avatar5 {
+    display: block;
+  }
+  .avatars .logo {
+    width: 20%;
+    top: 2vh;
+  }
+  .avatars .avatar2 {
+    width: 25%;
+    top: 5vh;
+    right: 3vw;
+  }
+  .avatars .avatar3 {
+    width: 20%;
+    top: 10vh;
+    left: 7vw;
+  }
+  .avatars .avatar6 {
+    width: 20%;
+    bottom: 37.5vh;
+    right: 12vw;
+  }
+  .avatars .avatar1 {
+    width: 20%;
+    right: 3vw;
+    top: 28.5vh;
+  }
+  .avatars .avatar4 {
+    width: 30%;
+    bottom: 5vh;
+    right: 15vw;
+  }
+  .avatars .avatar5 {
+    z-index: -1;
+    width: 20%;
+    right: 25vw;
+    top: 20vh;
+  }
+  main h1 {
+    color: #32F5C8;
+    font-family: "Sen";
+    font-size: 104px;
+    top: 27.33vh;
+  }
+  main p {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-size: 26px;
+    top: 52vh;
+    left: 1vw;
+    width: 70vw;
+  }
+  main button {
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    color: #013243;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 24px;
+    padding: .75rem;
+    width: 42.5vw;
+    left: 1vw;
+    top: 61vh;
+  }
+  .twitter {
+    top: 91vh;
+  }
+  h2 {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 22px;
+    top: 92vh;
+    left: 10vw;
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .avatars .avatar1, .avatars .avatar4, .avatars .avatar5 {
+    display: block;
+  }
+  .avatars .logo {
+    width: 20%;
+    top: 2vh;
+    left: 5vw;
+  }
+  .avatars .avatar2 {
+    width: 20%;
+    top: 5vh;
+    right: 3vw;
+  }
+  .avatars .avatar3 {
+    width: 10%;
+    top: 12vh;
+    left: 1vw;
+  }
+  .avatars .avatar6 {
+    width: 10%;
+    bottom: 39.5vh;
+    right: 39.5vw;
+  }
+  .avatars .avatar1 {
+    width: 10%;
+    right: 8vw;
+    top: 45.5vh;
+    z-index: -1;
+  }
+  .avatars .avatar4 {
+    width: 22.5%;
+    bottom: 5vh;
+    right: 10vw;
+  }
+  .avatars .avatar5 {
+    z-index: -1;
+    width: 11%;
+    right: 32vw;
+    top: 13vh;
+  }
+  main h1 {
+    color: #32F5C8;
+    font-family: "Sen";
+    font-size: 120px;
+    top: 15vh;
+    left: 3vw;
+  }
+  main p {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-size: 20px;
+    top: 52vh;
+    left: 4vw;
+    width: 40vw;
+  }
+  main button {
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    color: #013243;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 24px;
+    padding: .75rem;
+    width: 31vw;
+    left: 4vw;
+    top: 63vh;
+  }
+  .twitter {
+    top: 91vh;
+    left: 5vw;
+  }
+  h2 {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 22px;
+    top: 92.5vh;
+    left: 10.5vw;
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .avatars .avatar1, .avatars .avatar4, .avatars .avatar5 {
+    display: block;
+  }
+  .avatars .logo {
+    width: 10%;
+    top: 2vh;
+    left: 5vw;
+  }
+  .avatars .avatar2 {
+    /*redlips*/
+    width: 15%;
+    top: 7vh;
+    right: 10vw;
+  }
+  .avatars .avatar3 {
+    width: 10%;
+    top: 8vh;
+    left: 4.5vw;
+  }
+  .avatars .avatar6 {
+    width: 12.5%;
+    bottom: 25vh;
+    right: 36.5vw;
+  }
+  .avatars .avatar1 {
+    width: 10%;
+    right: 3vw;
+    top: 51.5vh;
+    z-index: -1;
+  }
+  .avatars .avatar4 {
+    width: 20%;
+    bottom: 3vh;
+    right: 14vw;
+  }
+  .avatars .avatar5 {
+    z-index: -1;
+    width: 10%;
+    right: 30.25vw;
+    top: 13vh;
+  }
+  main h1 {
+    color: #32F5C8;
+    font-family: "Sen";
+    font-size: 180px;
+    top: 15vh;
+    left: 3vw;
+  }
+  main p {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-size: 24px;
+    top: 60vh;
+    left: 4vw;
+    width: 40vw;
+  }
+  main button {
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    color: #013243;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 24px;
+    padding: .75rem;
+    width: 20vw;
+    left: 4vw;
+    top: 70vh;
+  }
+  .twitter {
+    top: 91vh;
+    left: 5vw;
+  }
+  h2 {
+    color: #A9BDC6;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 22px;
+    top: 92vh;
+    left: 9vw;
+    width: 55vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */

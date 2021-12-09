@@ -1,0 +1,82 @@
+@import "./general";
+
+main {
+    
+    h1 {
+        color: #32F5C8;
+        font-family: "Sen";
+        font-size: 42px;
+        top: 33.33vh;
+        width: 100vh;
+    }
+
+    p {
+        color: #A9BDC6;
+        font-family: "Inter";
+        font-size: 18px;
+        top: 48vh;
+        width: 80vw;
+    }
+
+    button {
+        background-color: #32F5C8;
+        border: none;
+        border-radius: 5px;
+        color: #013243;
+        font-family: "Sen";
+        font-weight: 700;
+        font-size: 18px;
+        padding: .75rem;
+        width: 80vw;
+        top: 59vh;
+    }
+}
+
+.twitter {
+    top: 91vh;
+}
+
+h2 {
+        color: #A9BDC6;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        top: 92.3vh;
+        left: 23vw;
+        width: 55vw;
+    }
+
+* {
+    position: absolute;
+}
+
+.avatar1, .avatar4, .avatar5 {
+    display: none;
+}
+
+.avatars {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 1rem;
+
+    .avatar2 {
+        width: 40%;
+        top: 23.5vh;
+        right: 3vw;
+    }
+
+    .avatar3 {
+        width: 30%;
+        top: 23vh;
+        left: 10vw;
+    }
+
+    .avatar6 {
+        width: 45%;
+        bottom: 10.5vh;
+        right: 3vw;
+        z-index: -1;
+    }
+}
+
+@import "./queries";

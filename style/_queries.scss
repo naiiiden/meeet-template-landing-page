@@ -1,0 +1,424 @@
+@media screen and (min-width: 375px) {
+    .avatars {
+        .avatar2 {
+            top: 18vh;
+            right: 2.5vw;
+        }
+
+        .avatar3 {
+            top: 18.5vh;
+            left: 9vw;
+        }
+
+        .avatar6 {
+            width: 40%;
+            bottom: 4.5vh;
+        }
+    }
+
+
+    main {
+        
+        h1 {
+            font-size: 50px;
+            top: 30.33vh;
+        }
+
+        p {
+            font-size: 22px;
+            top: 50vh;
+            width: 90vw;
+        }
+
+        button {
+            font-size: 18px;
+            padding: .75rem;
+            width: 72.5vw;
+            top: 65vh;
+        }
+
+    }
+
+    .twitter {
+        top: 91vh;
+    }
+
+    h2 {
+            font-size: 18px;
+            top: 93vh;
+            left: 19vw;
+            width: 55vw;
+        }
+}
+
+@media screen and (min-width: 425px) {
+    .avatars {
+        .avatar2 {
+            top: 15vh;
+            right: 3vw;
+        }
+
+        .avatar3 {
+            top: 16.5vh;
+            left: 10vw;
+        }
+
+        .avatar6 {
+            width: 35%;
+            bottom: 4.5vh;
+            right: 10vw;
+        }
+    }
+
+
+    main {
+        
+        h1 {
+            color: #32F5C8;
+            font-family: "Sen";
+            font-size: 58px;
+            top: 30.33vh;
+        }
+
+        p {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-size: 24px;
+            top: 50vh;
+            width: 85vw;
+        }
+
+        button {
+            background-color: #32F5C8;
+            border: none;
+            border-radius: 5px;
+            color: #013243;
+            font-family: "Sen";
+            font-weight: 700;
+            font-size: 18px;
+            padding: .75rem;
+            width: 72.5vw;
+            top: 65vh;
+        }
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .twitter {
+        top: 91vh;
+    }
+
+    h2 {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-weight: 400;
+            font-size: 18px;
+            top: 93vh;
+            left: 19vw;
+            width: 55vw;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .avatars {
+        .avatar1, .avatar4, .avatar5 {
+            display: block;
+        }
+
+        .logo {
+            width: 20%;
+            top: 2vh;
+        }
+
+        .avatar2 {
+            width: 25%;
+            top: 5vh;
+            right: 3vw;
+        }
+
+        .avatar3 {
+            width: 20%;
+            top: 10vh;
+            left: 7vw;
+        }
+
+        .avatar6 {
+            width: 20%;
+            bottom: 37.5vh;
+            right: 12vw;
+        }
+
+        .avatar1 {
+            width: 20%;
+            right: 3vw;
+            top: 28.5vh;
+        }
+
+        .avatar4 {
+            width: 30%;
+            bottom: 5vh;
+            right: 15vw;
+        }
+
+        .avatar5 {
+            z-index: -1;
+            width: 20%;
+            right: 25vw;
+            top: 20vh;
+        }
+    }
+
+
+    main {
+        
+        h1 {
+            color: #32F5C8;
+            font-family: "Sen";
+            font-size: 104px;
+            top: 27.33vh;
+        }
+
+        p {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-size: 26px;
+            top: 52vh;
+            left: 1vw;
+            width: 70vw;
+        }
+
+        button {
+            background-color: #32F5C8;
+            border: none;
+            border-radius: 5px;
+            color: #013243;
+            font-family: "Sen";
+            font-weight: 700;
+            font-size: 24px;
+            padding: .75rem;
+            width: 42.5vw;
+            left: 1vw;
+            top: 61vh;
+        }
+    }
+
+    .twitter {
+        top: 91vh;
+    }
+
+    h2 {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 22px;
+            top: 92vh;
+            left: 10vw;
+            width: 55vw;
+        }
+}
+
+@media screen and (min-width: 1024px) {
+    .avatars {
+        .avatar1, .avatar4, .avatar5 {
+            display: block;
+        }
+
+        .logo {
+            width: 20%;
+            top: 2vh;
+            left: 5vw;
+        }
+
+        .avatar2 {
+            width: 20%;
+            top: 5vh;
+            right: 3vw;
+        }
+
+        .avatar3 {
+            width: 10%;
+            top: 12vh;
+            left: 1vw;
+        }
+
+        .avatar6 {
+            width: 10%;
+            bottom: 39.5vh;
+            right: 39.5vw;
+        }
+
+        .avatar1 {
+            width: 10%;
+            right: 8vw;
+            top: 45.5vh;
+            z-index: -1;
+        }
+
+        .avatar4 {
+            width: 22.5%;
+            bottom: 5vh;
+            right: 10vw;
+        }
+
+        .avatar5 {
+            z-index: -1;
+            width: 11%;
+            right: 32vw;
+            top: 13vh;
+        }
+    }
+
+
+    main {
+        
+        h1 {
+            color: #32F5C8;
+            font-family: "Sen";
+            font-size: 120px;
+            top: 15vh;
+            left: 3vw;
+        }
+
+        p {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-size: 20px;
+            top: 52vh;
+            left: 4vw;
+            width: 40vw;
+        }
+
+        button {
+            background-color: #32F5C8;
+            border: none;
+            border-radius: 5px;
+            color: #013243;
+            font-family: "Sen";
+            font-weight: 700;
+            font-size: 24px;
+            padding: .75rem;
+            width: 31vw;
+            left: 4vw;
+            top: 63vh;
+        }
+    }
+
+    .twitter {
+        top: 91vh;
+        left: 5vw;
+    }
+
+    h2 {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 22px;
+            top: 92.5vh;
+            left: 10.5vw;
+            width: 55vw;
+        }
+}
+
+@media screen and (min-width: 1440px) {
+    .avatars {
+        .avatar1, .avatar4, .avatar5 {
+            display: block;
+        }
+
+        .logo {
+            width: 10%;
+            top: 2vh;
+            left: 5vw;
+        }
+
+        .avatar2 {/*redlips*/
+            width: 15%;
+            top: 7vh;
+            right: 10vw;
+        }
+
+        .avatar3 {
+            width: 10%;
+            top: 8vh;
+            left: 4.5vw;
+        }
+
+        .avatar6 {
+            width: 12.5%;
+            bottom: 25vh;
+            right: 36.5vw;
+        }
+
+        .avatar1 {
+            width: 10%;
+            right: 3vw;
+            top: 51.5vh;
+            z-index: -1;
+        }
+
+        .avatar4 {
+            width: 20%;
+            bottom: 3vh;
+            right: 14vw;
+        }
+
+        .avatar5 {
+            z-index: -1;
+            width: 10%;
+            right: 30.25vw;
+            top: 13vh;
+        }
+    }
+
+
+    main {
+        
+        h1 {
+            color: #32F5C8;
+            font-family: "Sen";
+            font-size: 180px;
+            top: 15vh;
+            left: 3vw;
+        }
+
+        p {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-size: 24px;
+            top: 60vh;
+            left: 4vw;
+            width: 40vw;
+        }
+
+        button {
+            background-color: #32F5C8;
+            border: none;
+            border-radius: 5px;
+            color: #013243;
+            font-family: "Sen";
+            font-weight: 700;
+            font-size: 24px;
+            padding: .75rem;
+            width: 20vw;
+            left: 4vw;
+            top: 70vh;
+        }
+    }
+
+    .twitter {
+        top: 91vh;
+        left: 5vw;
+    }
+
+    h2 {
+            color: #A9BDC6;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 22px;
+            top: 92vh;
+            left: 9vw;
+            width: 55vw;
+        }
+}
