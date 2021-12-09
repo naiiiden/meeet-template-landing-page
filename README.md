@@ -12,4 +12,4 @@ I designed mobile/tablet views on iPhone X/iPad resolution with Chrome's DevTool
 ![desktop](/Design/Desktop.png)
 
 ## Live preview
-https://naiiiden.github.io/newsletter-popup/
+https://naiiiden.github.io/meeet-template-landing-page/
