@@ -1,11 +1,11 @@
 # Meet Template Landing Page
-I designed mobile/tablet views on iPhone X/iPad resolution with Chrome's DevTools and after that they broke... If you know what's the issue, please MSG me :)
 
 # screenshots
 ### Mobile design
 ![mobile](/Design/Mobile.png)
 
 ### Tablet design
+best viewed on iPad
 ![tablet](/Design/Tablet.png)
 
 ### Desktop design
