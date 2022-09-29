@@ -5,7 +5,6 @@
 ![mobile](/Design/Mobile.png)
 
 ### Tablet design
-best viewed on iPad
 ![tablet](/Design/Tablet.png)
 
 ### Desktop design
