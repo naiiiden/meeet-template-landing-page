@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,7 +21,6 @@ main h1 {
   font-size: 42px;
   top: 33.33vh;
 }
-
 main p {
   color: #A9BDC6;
   font-family: "Inter";
@@ -30,7 +28,6 @@ main p {
   top: 48vh;
   width: 80vw;
 }
-
 main button {
   background-color: #32F5C8;
   border: none;
@@ -39,7 +36,7 @@ main button {
   font-family: "Sen";
   font-weight: 700;
   font-size: 18px;
-  padding: .75rem;
+  padding: 0.75rem;
   width: 80vw;
   top: 59vh;
 }
@@ -71,19 +68,16 @@ h2 {
   min-height: 100vh;
   padding: 1rem;
 }
-
 .avatars .avatar2 {
   width: 40%;
   top: 23.5vh;
   right: 3vw;
 }
-
 .avatars .avatar3 {
   width: 30%;
   top: 23vh;
   left: 10vw;
 }
-
 .avatars .avatar6 {
   width: 45%;
   bottom: 10.5vh;
@@ -115,7 +109,7 @@ h2 {
   }
   main button {
     font-size: 18px;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 72.5vw;
     top: 65vh;
   }
@@ -129,7 +123,6 @@ h2 {
     width: 55vw;
   }
 }
-
 @media screen and (min-width: 425px) {
   .avatars .avatar2 {
     top: 15vh;
@@ -145,13 +138,8 @@ h2 {
     right: 10vw;
   }
   main {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 2rem;
   }
   main h1 {
@@ -175,7 +163,7 @@ h2 {
     font-family: "Sen";
     font-weight: 700;
     font-size: 18px;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 72.5vw;
     top: 65vh;
   }
@@ -192,7 +180,6 @@ h2 {
     width: 55vw;
   }
 }
-
 @media screen and (min-width: 768px) {
   .avatars .avatar1, .avatars .avatar4, .avatars .avatar5 {
     display: block;
@@ -254,7 +241,7 @@ h2 {
     font-family: "Sen";
     font-weight: 700;
     font-size: 24px;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 42.5vw;
     left: 1vw;
     top: 61vh;
@@ -272,7 +259,6 @@ h2 {
     width: 55vw;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .avatars .avatar1, .avatars .avatar4, .avatars .avatar5 {
     display: block;
@@ -337,7 +323,7 @@ h2 {
     font-family: "Sen";
     font-weight: 700;
     font-size: 24px;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 31vw;
     left: 4vw;
     top: 63vh;
@@ -356,7 +342,6 @@ h2 {
     width: 55vw;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .avatars .avatar1, .avatars .avatar4, .avatars .avatar5 {
     display: block;
@@ -366,8 +351,7 @@ h2 {
     top: 2vh;
     left: 5vw;
   }
-  .avatars .avatar2 {
-    /*redlips*/
+  .avatars .avatar2 { /*redlips*/
     width: 15%;
     top: 7vh;
     right: 10vw;
@@ -422,7 +406,7 @@ h2 {
     font-family: "Sen";
     font-weight: 700;
     font-size: 24px;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 20vw;
     left: 4vw;
     top: 70vh;
@@ -440,5 +424,4 @@ h2 {
     left: 9vw;
     width: 55vw;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
